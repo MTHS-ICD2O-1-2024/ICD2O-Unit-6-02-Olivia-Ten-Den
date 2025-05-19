@@ -6,17 +6,21 @@
 
 "use strict"
 
-function clickCookie() {
-  localStorage.hits = 1
-  document.getElementById('result').innerHTML = "<p>Total Hits : " + localStorage.hits + ".</p>"
-}
-
-window.onload = function() {
-  if( localStorage.hits ) {
-    localStorage.hits = Number (localStorage.hits) + 1
-    document.getElementById('result').innerHTML = "<p>Total Hits : " + localStorage.hits + ".</p>"
+window.onload = function () {
+  if (localStorage.hits) {
+    displayCount()
   }
   else {
-    clickCookie()
+    localStorage.setItem('hits', 0)
+    displayCount()
   }
+}
+
+function clickCookie() {
+  localStorage.hits = Number(localStorage.hits) + 1
+  displayCount()
+}
+
+function displayCount() {
+  document.getElementById('result').innerHTML = "<h5>Total Hits : " + localStorage.hits + "</h5>"
 }
