@@ -6,20 +6,17 @@
 
 "use strict"
 
-function calculate() {
-  let counter = 0
-  let firstInteger = parseInt(document.getElementById("integer-one").value)
-  let answer = firstInteger
-  let secondInteger = parseInt(document.getElementById("integer-two").value)
+function clickCookie() {
+  localStorage.hits = 1
+  document.getElementById('result').innerHTML = "<p>Total Hits : " + localStorage.hits + ".</p>"
+}
 
-  while (true) {
-    if (answer < secondInteger) {
-      break
-    }
-    else {
-      answer = answer - secondInteger
-      counter = counter + 1
-    }
+window.onload = function() {
+  if( localStorage.hits ) {
+    localStorage.hits = Number (localStorage.hits) + 1
+    document.getElementById('result').innerHTML = "<p>Total Hits : " + localStorage.hits + ".</p>"
   }
-  document.getElementById('result').innerHTML = "<p>The quotient is " + counter + ", remainder " + answer + ".</p>"
+  else {
+    clickCookie()
+  }
 }

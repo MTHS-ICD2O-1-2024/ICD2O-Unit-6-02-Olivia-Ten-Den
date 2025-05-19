@@ -21,6 +21,7 @@
 <body>
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <script src="./js/script.js"></script>
+  
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
@@ -28,47 +29,25 @@
       </div>
     </header>
     <main class="mdl-layout__content">
-      <div class="left-image">
-        <img src="./images/CookieClicker.webp" alt="Image of a cookie." />
-      </div>
       <div class="page-content">
         Click the Cookie!!!
       </div>
+      <div class="left-image">
+        <img src="./images/CookieClicker.webp" alt="Image of a cookie." />
+      </div>
       <br />
-      <form>
-        <h6>Integer 1:</h6>
-        <div class="mdl-textfield mdl-js-textfield">
-          <!-- input pattern attribute -->
-          <input class="mdl-textfield__input" type="number" min="1" id="integer-one" name="integer-one" />
-          <!-- mdl-textfield__label -->
-          <label class="mdl-textfield__label" for="integer-one">Enter first integer here (dividend)
-          </label>
-          <!-- class "mdl-textfield__error" -->
-          <span class="mdl-textfield__error">Input is not a valid integer.</span>
-        </div>
-        <br />
         <form>
-          <h6>Integer 2:</h6>
-          <div class="mdl-textfield mdl-js-textfield">
-            <!-- input pattern attribute -->
-            <input class="mdl-textfield__input" type="number" min="1" id="integer-two" name="integer-two" />
-            <!-- mdl-textfield__label -->
-            <label class="mdl-textfield__label" for="integer-two">Enter second integer here (divisor)
-            </label>
-            <!-- class "mdl-textfield__error" -->
-            <span class="mdl-textfield__error">Input is not a valid integer.</span>
-          </div>
-          <br />
           <div>
-            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" onclick="calculate()"
-              type="button">
-              Find Quotient
-            </button>
+            <input type="image" src="./images/CookieClicker.webp" alt="Submit" onclick="clickCookie()">
           </div>
         </form>
         <br />
         <div class="page-content-answer">
           <div id="result"></div>
+        </div>
+        <div>
+          <p>Refresh the page to increase number of hits.</p>
+          <p>Close the window and open it again and check the result.</p>
         </div>
     </main>
   </div>
