@@ -1,10 +1,10 @@
 # ICS2O ⇢ Unit #6-01
 
-[![Mr Coxall's Super Linter](https://github.com/MTHS-ICD2O-1-2024/ICD2O-Unit-6-02b-Olivia-Ten-Den/workflows/Mr%20Coxall's%20Super%20Linter/badge.svg)](https://github.com/MTHS-ICD2O-1-2024/ICD2O-Unit-6-02b-Olivia-Ten-Den/actions)
+[![Mr Coxall's Super Linter](https://github.com/MTHS-ICD2O-1-2024/ICD2O-Unit-6-02-Olivia-Ten-Den/workflows/Mr%20Coxall's%20Super%20Linter/badge.svg)](https://github.com/MTHS-ICD2O-1-2024/ICD2O-Unit-6-02-Olivia-Ten-Den/actions)
 
-[![Deploy Pages](https://github.com/MTHS-ICD2O-1-2024/ICD2O-Unit-6-02b-Olivia-Ten-Den/workflows/Deploy%20Pages/badge.svg)](https://github.com/MTHS-ICD2O-1-2024/ICD2O-Unit-6-02b-Olivia-Ten-Den/actions)
+[![Deploy Pages](https://github.com/MTHS-ICD2O-1-2024/ICD2O-Unit-6-02-Olivia-Ten-Den/workflows/Deploy%20Pages/badge.svg)](https://github.com/MTHS-ICD2O-1-2024/ICD2O-Unit-6-02-Olivia-Ten-Den/actions)
 
-This site can be found at: [https://MTHS-ICD2O-1-2024.github.io/ICD2O-Unit-6-02b-Olivia-Ten-Den](https://MTHS-ICD2O-1-2024.github.io/ICD2O-Unit-6-02b-Olivia-Ten-Den)
+This site can be found at: [https://MTHS-ICD2O-1-2024.github.io/ICD2O-Unit-6-02-Olivia-Ten-Den](https://MTHS-ICD2O-1-2024.github.io/ICD2O-Unit-6-02-Olivia-Ten-Den)
 ---
 
 **NOTES ON INITIAL LOAD:**
